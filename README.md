@@ -1,1 +1,5 @@
-"# instagram_clone" 
+# 인스타그램 클론 howlab 따라하기
+
+aaaa
+### 현재 진행상황 
+> 1217 - 메뉴(프로필, home 등 .. )제작 완료  
