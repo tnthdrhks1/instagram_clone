@@ -1,12 +1,14 @@
 package com.example.howlstagram.navigation.model
 
+import com.facebook.internal.Mutable
+
 data class ContentDTO(var explain : String? = null,
                         var imageUrl : String? = null,
                         var uid : String? = null,
                         var userId : String? = null,
                         var timestamp : Long? = null,
                         var favoriteCount : Int = 0,
-                        var favorite : Map<String,Boolean> = HashMap()){
+                        var favorite : MutableMap<String,Boolean> = HashMap()){
 
     data class Comment(var uid : String? = null,
                         var userId : String? = null,
